@@ -11,5 +11,7 @@ if st.button("submit"):
     st.write("u can vote")
   elif age >= 65:
     st.write("u dead")
+  elif age < 0:
+    st.write(" u are not born")
   else:
     st.write("u cannot vote")
