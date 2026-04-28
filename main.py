@@ -6,4 +6,4 @@ name= st.text_input(" enyter name")
 age = st.number_input("your age")
 
 if st.button("submit"):
-  st.write("hallo,{name}! welcome to streamlit")
+  st.write(f"hallo,{name}! welcome to streamlit")
