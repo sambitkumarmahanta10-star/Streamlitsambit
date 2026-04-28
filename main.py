@@ -15,3 +15,4 @@ if st.button("submit"):
     st.write(" u are not born")
   else:
     st.write("u cannot vote")
+st.caption("smol  text")
