@@ -7,7 +7,7 @@ age = st.number_input("your age")
 
 if st.button("submit"):
   st.write(f"hallo,{name}! welcome to streamlit")
-  if age >= 18:
+  if age >= 18 and age <65:
     st.write("u can vote")
   elif age >= 65:
     st.write("u dead")
