@@ -16,5 +16,9 @@ if st.button("submit"):
   else:
     st.write("u cannot vote")
 st.caption("smol  text")
-latex_expr = "a^2 + b^2 = c^2"
+latex_expr ='''
+    a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
+    \sum_{k=0}^{n-1} ar^k =
+    a \left(\frac{1-r^{n}}{1-r}\right)
+    '''
 st.write(f"The pythagorean theorem is given by the equation ${latex_expr}$.")
